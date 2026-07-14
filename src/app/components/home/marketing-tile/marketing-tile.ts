@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-marketing-tile',
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './marketing-tile.html',
   styleUrl: './marketing-tile.css',
 })

@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ProductHighlightTile } from './product-highlight-tile';
+import { ProductsHighlightTile } from './products-highlight-tile';
 
-describe('ProductHighlightTile', () => {
-  let component: ProductHighlightTile;
-  let fixture: ComponentFixture<ProductHighlightTile>;
+describe('ProductsHighlightTile', () => {
+  let component: ProductsHighlightTile;
+  let fixture: ComponentFixture<ProductsHighlightTile>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ProductHighlightTile]
+      imports: [ProductsHighlightTile]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ProductHighlightTile);
+    fixture = TestBed.createComponent(ProductsHighlightTile);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });
